@@ -1,19 +1,28 @@
-# Spam Detection 📩
+# 📩 Spam Detection
 
-A machine learning project that detects whether a message is **spam or ham** using NLP with TF-IDF Vectorization and classification algorithms.
+A machine learning project that classifies messages as **Spam** or **Ham** using NLP and **TF-IDF Vectorization**.
 
-## Models & Accuracy
-| Model | Accuracy |
-|------|----------|
-| Multinomial Naive Bayes | 96.6% |
-| Logistic Regression | 95.2% |
-| Random Forest | 97.6% |
+## 📊 Models & Accuracy
 
-🏆 **Best Model:** Random Forest Classifier (97.6%)
+| Model                       |  Accuracy |
+| --------------------------- | --------: |
+| 🏆 Random Forest Classifier | **97.5%** |
+| Multinomial Naive Bayes     | **96.9%** |
+| Logistic Regression         | **96.8%** |
 
-## Tech Stack
-- Python
-- Pandas 
-- Scikit-learn
-- TF-IDF Vectorizer
-- Machine Learning 
+**Best Model:** Random Forest Classifier — **97.5%**
+
+## 🛠️ Tech Stack
+
+* Python
+* Pandas
+* Scikit-learn
+* TF-IDF Vectorizer
+* Random Forest
+* Flask
+
+## 🌐 Flask Deployment
+
+The trained model is deployed using **Flask** for real-time spam detection through a web interface.
+
+
